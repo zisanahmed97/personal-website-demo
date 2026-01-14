@@ -200,6 +200,78 @@ margin-bottom: 18px;
       line-height: 26px;
  }
 
+ /* inquiry section */
+ #inquiry{
+    padding-top: 108px;
+ }
+
+ .inquiry-container{
+    max-width: 906px;
+    /* border: 1px solid red; */
+    border-radius: 29px;
+    margin: 0 auto 93px;
+    background: url(../shapes/inquiry.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+ 
+   
+    
+ }
+ .work-inquiry{
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 74px;
+       
+ }
+ .work-inquiry h1{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: bold;
+ }
+
+ .work-inquiry button{
+       background-color:#FF8063;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 18px 32px;
+    /* margin-bottom: 42px; */
+    border: none;
+    border-radius: 6px;
+
+ }
+
+ /* mail section */
+#mail{
+    text-align: center;
+}
+
+.mail-content p{
+    color: #696871;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.mail-content h3{
+    color: #363958;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.logo{
+ display: flex;
+ gap: 27px;
+ justify-content: center;
+ margin-bottom: 81px;
+ 
+}
+
+.logo img{
+    max-width: 40px;
+}
 
 
 
